@@ -1,7 +1,7 @@
 ## [main.py](main.py)
 
-main file where you run all the codes and will import all functions from the BoardFuctions file
+main file where you run all the codes and import all functions from the BoardFuctions file
 
-## [BoardFuctions.py](BoardFuctions.py)
+## [BoardFunctions.py](BoardFunctions.py)
 
-This python file contains all the functions you need
+This Python file contains all the functions you need
