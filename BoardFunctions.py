@@ -1,7 +1,6 @@
 
 
 import random  # for random placing of 2
-import copy  # for deepcopy
 import os  # for clear screen
 
 
@@ -12,13 +11,12 @@ upkey = ['W', 'w']  # up is for up arrow key, tested and works in windows
 downkey = ['S', 's']
 leftkey = ['A', 'a']
 rightkey = ['D', 'd']
-restartkey = ['R', 'r']
-endkey = ['E', 'e']
+
 
 
 class Gameboard:  # class Gameboard
     validkey = upkey + downkey + leftkey + rightkey # valid keypresses on keyboard
-    resultkey = restartkey + endkey 
+
 
     def __init__(self, size, win):  # initialises the class
         self.gameboard = [[0 for i in range(size)] for j in range(size)]  # faster way of declaring
@@ -195,8 +193,6 @@ class Gameboard:  # class Gameboard
         return 1
     # player lost check ends here
 
-
-# class Gameboard ends here
 
 
 
